@@ -1,0 +1,51 @@
+.logo {
+	img {
+		width: 100%;
+		padding: 15% 10% 0 10%;
+	}		
+}
+
+@media screen and (min-width: 500px) {
+	
+	.logo {
+		img {
+			width: 100%;
+			padding: 15% 20% 0 20%;
+		}		
+	}
+
+}
+
+
+@media screen and (min-width: 750px) {
+	
+	.logo {
+		img {
+			width: 100%;
+			padding: 10% 20% 0 20%;
+		}		
+	}
+
+}
+
+
+@media screen and (min-width: 1000px) {
+	
+	.logo {
+		img {
+			width: 100%;
+			padding: 2.5% 10%;
+		}		
+	}
+
+}
+
+@media screen and (min-width: 1700px) {
+	
+	.logo {
+		img {
+			padding: 2.5% 12.5%;
+		}		
+	}
+	
+}

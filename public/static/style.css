@@ -1,0 +1,121 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%; }
+
+body {
+  font-size: 16px;
+  line-height: 1em;
+  background: #191919;
+  position: relative; }
+
+.details img {
+  width: 100%;
+  padding: 10% 20%; }
+
+@media screen and (min-width: 500px) {
+  .details img {
+    width: 100%;
+    padding: 7.5% 30%; } }
+@media screen and (min-width: 750px) {
+  .details img {
+    width: 100%;
+    padding: 5% 35%; } }
+@media screen and (min-width: 1000px) {
+  .details img {
+    width: 100%;
+    padding: 0 40%; } }
+@media screen and (min-width: 1700px) {
+  .details img {
+    padding: 0 42.5%; } }
+.logo img {
+  width: 100%;
+  padding: 15% 10% 0 10%; }
+
+@media screen and (min-width: 500px) {
+  .logo img {
+    width: 100%;
+    padding: 15% 20% 0 20%; } }
+@media screen and (min-width: 750px) {
+  .logo img {
+    width: 100%;
+    padding: 10% 20% 0 20%; } }
+@media screen and (min-width: 1000px) {
+  .logo img {
+    width: 100%;
+    padding: 2.5% 10%; } }
+@media screen and (min-width: 1700px) {
+  .logo img {
+    padding: 2.5% 12.5%; } }
+.stripes img {
+  width: 100%; }
+
+.stripes--top {
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  right: 2%; }
+
+.stripes--bottom {
+  position: absolute;
+  bottom: 0%;
+  left: 2%;
+  right: 2%; }
+
+@media screen and (min-width: 1000px) {
+  .stripes--top,
+  .stripes--bottom {
+    display: none; } }

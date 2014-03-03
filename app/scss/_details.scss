@@ -1,0 +1,52 @@
+.details {
+	img {
+		width: 100%;
+		padding: 10% 20%;
+	}	
+}
+
+
+@media screen and (min-width: 500px) {
+
+	.details {
+		img {
+			width: 100%;
+			padding: 7.5% 30%;
+		}	
+	}
+
+}
+
+@media screen and (min-width: 750px) {
+	
+	.details {
+		img {
+			width: 100%;
+			padding: 5% 35%;
+		}	
+	}
+
+}
+
+
+@media screen and (min-width: 1000px) {
+
+	.details {
+		img {
+			width: 100%;
+			padding: 0 40%;
+		}	
+	}
+
+}
+
+
+@media screen and (min-width: 1700px) {
+	
+	.details {
+		img {
+			padding: 0 42.5%;
+		}	
+	}
+
+}

@@ -1,0 +1,25 @@
+@import '../vendor/reset-scss/reset';
+
+*, 
+*:before, 
+*:after {
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-size: 16px;
+	line-height: 1em;
+	background: #191919;
+	position: relative;
+}
+
+@import 'details';
+@import 'logo';
+@import 'stripes';
