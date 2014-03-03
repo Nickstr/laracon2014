@@ -68,15 +68,12 @@ body {
 
 @media screen and (min-width: 500px) {
   .details img {
-    width: 100%;
     padding: 7.5% 30%; } }
 @media screen and (min-width: 750px) {
   .details img {
-    width: 100%;
     padding: 5% 35%; } }
 @media screen and (min-width: 1000px) {
   .details img {
-    width: 100%;
     padding: 0 40%; } }
 @media screen and (min-width: 1700px) {
   .details img {
@@ -87,15 +84,12 @@ body {
 
 @media screen and (min-width: 500px) {
   .logo img {
-    width: 100%;
     padding: 15% 20% 0 20%; } }
 @media screen and (min-width: 750px) {
   .logo img {
-    width: 100%;
     padding: 10% 20% 0 20%; } }
 @media screen and (min-width: 1000px) {
   .logo img {
-    width: 100%;
     padding: 2.5% 10%; } }
 @media screen and (min-width: 1700px) {
   .logo img {
