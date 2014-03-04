@@ -20,96 +20,129 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block; }
+  display: block;
+}
 
 body {
-  line-height: 1; }
+  line-height: 1;
+}
 
 ol, ul {
-  list-style: none; }
+  list-style: none;
+}
 
 blockquote, q {
-  quotes: none; }
+  quotes: none;
+}
 
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
-  content: none; }
+  content: none;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 *,
 *:before,
 *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 html,
 body {
-  height: 100%; }
+  height: 100%;
+}
 
 body {
   font-size: 16px;
   line-height: 1em;
   background: #191919;
-  position: relative; }
+  position: relative;
+}
 
 .details img {
   width: 100%;
-  padding: 10% 20%; }
+  padding: 10% 20%;
+}
 
 @media screen and (min-width: 500px) {
   .details img {
-    padding: 7.5% 30%; } }
+    padding: 7.5% 30%;
+  }
+}
 @media screen and (min-width: 750px) {
   .details img {
-    padding: 5% 35%; } }
+    padding: 5% 35%;
+  }
+}
 @media screen and (min-width: 1000px) {
   .details img {
-    padding: 0 40%; } }
+    padding: 0 40%;
+  }
+}
 @media screen and (min-width: 1700px) {
   .details img {
-    padding: 0 42.5%; } }
+    padding: 0 42.5%;
+  }
+}
 .logo img {
   width: 100%;
-  padding: 15% 10% 0 10%; }
+  padding: 15% 10% 0 10%;
+}
 
 @media screen and (min-width: 500px) {
   .logo img {
-    padding: 15% 20% 0 20%; } }
+    padding: 15% 20% 0 20%;
+  }
+}
 @media screen and (min-width: 750px) {
   .logo img {
-    padding: 10% 20% 0 20%; } }
+    padding: 10% 20% 0 20%;
+  }
+}
 @media screen and (min-width: 1000px) {
   .logo img {
-    padding: 2.5% 10%; } }
+    padding: 2.5% 10%;
+  }
+}
 @media screen and (min-width: 1700px) {
   .logo img {
-    padding: 2.5% 12.5%; } }
+    padding: 2.5% 12.5%;
+  }
+}
 .stripes img {
-  width: 100%; }
+  width: 100%;
+}
 
 .stripes--top {
   position: absolute;
   top: 0%;
   left: 2%;
-  right: 2%; }
+  right: 2%;
+}
 
 .stripes--bottom {
   position: absolute;
   bottom: 0%;
   left: 2%;
-  right: 2%; }
+  right: 2%;
+}
 
 @media screen and (min-width: 1000px) {
   .stripes--top,
   .stripes--bottom {
-    display: none; } }
+    display: none;
+  }
+}

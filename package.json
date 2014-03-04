@@ -1,0 +1,37 @@
+{
+  "name": "laracon2014",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jeroengerits/laracon2014.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeroengerits/laracon2014/issues"
+  },
+  "homepage": "https://github.com/jeroengerits/laracon2014",
+  "dependencies": {
+    "gulp": "~3.5.5",
+    "gulp-sass": "~0.7.1"
+  },
+  "devDependencies": {
+    "gulp": "~3.5.5",
+    "gulp-ruby-sass": "~0.4.0",
+    "gulp-autoprefixer": "0.0.6",
+    "gulp-minify-css": "~0.3.0",
+    "gulp-jshint": "~1.5.0",
+    "gulp-concat": "~2.1.7",
+    "gulp-uglify": "~0.2.1",
+    "gulp-imagemin": "~0.1.5",
+    "gulp-clean": "~0.2.4",
+    "gulp-rename": "~1.1.0",
+    "gulp-livereload": "~1.2.0",
+    "tiny-lr": "0.0.5",
+    "gulp-notify": "~1.0.0-beta",
+    "gulp-cache": "~0.1.3"
+  }
+}

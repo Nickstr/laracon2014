@@ -4,7 +4,6 @@
   "authors": [
     "Jeroen Gerits <me@jeroengerits.nl>"
   ],
-  "license": "MIT",
   "private": true,
   "ignore": [
     "**/.*",
