@@ -72,6 +72,41 @@ body {
   position: relative;
 }
 
+@font-face {
+  font-family: 'apercuitalic';
+  src: url("fonts/apercuitalic-webfont.eot");
+  src: url("fonts/apercuitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/apercuitalic-webfont.woff") format("woff"), url("fonts/apercuitalic-webfont.ttf") format("truetype"), url("fonts/apercuitalic-webfont.svg#apercuitalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'apercubold';
+  src: url("fonts/apercubold-webfont.eot");
+  src: url("fonts/apercubold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/apercubold-webfont.woff") format("woff"), url("fonts/apercubold-webfont.ttf") format("truetype"), url("fonts/apercubold-webfont.svg#apercubold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'apercuregular';
+  src: url("fonts/apercuregular-webfont.eot");
+  src: url("fonts/apercuregular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/apercuregular-webfont.woff") format("woff"), url("fonts/apercuregular-webfont.ttf") format("truetype"), url("fonts/apercuregular-webfont.svg#apercuregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'aperculight_italic';
+  src: url("fonts/aperculightitalic-webfont.eot");
+  src: url("fonts/aperculightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/aperculightitalic-webfont.woff") format("woff"), url("fonts/aperculightitalic-webfont.ttf") format("truetype"), url("fonts/aperculightitalic-webfont.svg#aperculight_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'aperculight';
+  src: url("fonts/aperculight-webfont.eot");
+  src: url("fonts/aperculight-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/aperculight-webfont.woff") format("woff"), url("fonts/aperculight-webfont.ttf") format("truetype"), url("fonts/aperculight-webfont.svg#aperculight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 .details img {
   width: 100%;
   padding: 10% 20%;
@@ -145,4 +180,35 @@ body {
   .stripes--bottom {
     display: none;
   }
+}
+.buttons {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.button {
+  font-family: 'apercuregular', 'sans-serif';
+  border-radius: 5em;
+  background: #fff;
+  border: 2px solid #fff;
+  padding: .5em 1.25em;
+  margin: 1em;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button--style1 {
+  border-color: #094BA0;
+}
+
+.button--style2 {
+  color: #fff;
+  background: #C38213;
+  border-color: #fff;
+}
+
+.button--style3 {
+  color: #fff;
+  background: #094BA0;
+  border-color: #fff;
 }

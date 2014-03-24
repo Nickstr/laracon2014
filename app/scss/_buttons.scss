@@ -1,0 +1,40 @@
+.buttons {
+	margin-top: 1em;
+	text-align: center;
+}
+
+.button {
+	font-family: 'apercuregular', 'sans-serif';
+	border-radius: 5em;
+	background: #fff;
+	border: 2px solid #fff;
+	padding: .5em 1.25em;
+	margin: 1em;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.button--style1 {
+	border-color: #094BA0;
+	&:hover {
+
+	}
+}
+
+.button--style2 {
+	color: #fff;
+	background: #C38213;
+	border-color: #fff;
+	&:hover {
+		
+	}	
+}
+
+.button--style3 {
+	color: #fff;
+	background: #094BA0;
+	border-color: #fff;
+	&:hover {
+		
+	}	
+}
