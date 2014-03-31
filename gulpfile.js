@@ -36,10 +36,6 @@ gulp.task('scripts', function() {
     .pipe(notify({ message: 'Scripts task complete' }));
 });
 
-gulp.task('default', ['clean'], function() {
-    gulp.start('styles', 'scripts');
-});
-
 gulp.task('watch', function() {
 
   // Watch .scss files

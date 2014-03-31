@@ -6,35 +6,45 @@
 .button {
 	font-family: 'apercuregular', 'sans-serif';
 	border-radius: 5em;
-	background: #fff;
-	border: 2px solid #fff;
+	background: #eee;
+	border: 2px solid #eee;
 	padding: .5em 1.25em;
 	margin: 1em;
 	text-decoration: none;
 	display: inline-block;
+	font-weight: normal;
 }
 
 .button--style1 {
+	color: #094BA0;
 	border-color: #094BA0;
+	font-size: 1.2em;
 	&:hover {
 
 	}
 }
 
 .button--style2 {
-	color: #fff;
+	color: #eee;
 	background: #C38213;
-	border-color: #fff;
+	border-color: #eee;
 	&:hover {
-		
-	}	
+
+	}
 }
 
 .button--style3 {
-	color: #fff;
+	color: #eee;
 	background: #094BA0;
-	border-color: #fff;
+	border-color: #eee;
 	&:hover {
-		
-	}	
+
+	}
+}
+
+
+@media screen and (min-width: 500px) {
+	.button--style1 {
+		font-size: 1.2em;
+	}
 }

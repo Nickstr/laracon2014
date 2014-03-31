@@ -8,20 +8,13 @@
 	position: absolute;
 	top: 0%;
 	left: 2%;
-	right: 2%;	
-}
-
-.stripes--bottom {
-	position: absolute;
-	bottom: 0%;
-	left: 2%;
 	right: 2%;
 }
 
+
 @media screen and (min-width: 1000px) {
-	
-	.stripes--top,
-	.stripes--bottom {
+
+	.stripes--top {
 		display: none;
 	}
 
