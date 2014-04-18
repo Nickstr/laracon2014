@@ -182,18 +182,18 @@ body {
   font-family: 'apercuregular', 'sans-serif';
   border-radius: 5em;
   background: #eee;
-  border: 2px solid #eee;
+  border: .2em solid #eee;
   padding: .5em 1.25em;
   margin: 1em;
   text-decoration: none;
   display: inline-block;
   font-weight: normal;
+  font-size: 24px;
 }
 
 .button--style1 {
   color: #094BA0;
   border-color: #094BA0;
-  font-size: 1.2em;
 }
 
 .button--style2 {
@@ -210,7 +210,7 @@ body {
 
 @media screen and (min-width: 500px) {
   .button--style1 {
-    font-size: 1.2em;
+    font-size: 24px;
   }
 }
 .footer img {
@@ -254,9 +254,20 @@ body {
 
 @media screen and (min-width: 500px) {
   .divider01 {
-    margin: 2em 0 1em 0;
+    margin: 1em 0 1em 0;
   }
   .divider01 img {
     max-width: 400px;
   }
+}
+.introduction {
+  margin: 0 auto;
+  max-width: 920px;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ddd;
+  text-align: center;
+  font-family: apercuregular;
+  font-weight: normal;
+  padding: 2em 1em;
 }
