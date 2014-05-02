@@ -8,4 +8,14 @@
     font-family: apercuregular;
     font-weight: normal;
     padding: 2em 1em 0 1em;
+
+    a {
+        color: #eee;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .introduction {
+        padding: 0 1em 0 1em;
+    }
 }
