@@ -303,9 +303,14 @@ body {
 }
 .venues {
   background: #e6e6eb;
-  height: 800px;
+  height: 100%;
   font-family: apercuregular;
   border-top: 8px solid #c8c8c8;
+  margin: 0 auto;
+}
+
+.venues__wrapper {
+  max-width: 1160px;
   margin: 0 auto;
 }
 
@@ -314,11 +319,11 @@ body {
   font-size: 2.8em;
   font-weight: bold;
   color: #191919;
-  padding: 1.75em 0 .75em 0;
+  padding: 2em 0 .75em 0;
   border-bottom: .1em solid #C38213;
   display: block;
   max-width: 500px;
-  margin: 0 auto 1em auto;
+  margin: 0 auto 1.5em auto;
 }
 
 .venues__left {
@@ -354,5 +359,4 @@ body {
 
 .venue__image {
   width: 100%;
-  padding: 1em;
 }

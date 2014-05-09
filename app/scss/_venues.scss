@@ -1,10 +1,14 @@
 .venues {
 	background: rgb(230, 230, 235);;
-	height: 800px;
+	height: 100%;
     font-family: apercuregular;
     border-top: 8px solid rgb(200, 200, 200);
-    
     margin: 0 auto;
+}
+
+.venues__wrapper {
+	max-width: 1160px;
+	margin: 0 auto;
 }
 
 .venues__title {
@@ -12,11 +16,11 @@
 	font-size: 2.8em;
 	font-weight:bold;
 	color: #191919;
-	padding: 1.75em 0 .75em 0;
+	padding: 2em 0 .75em 0;
 	border-bottom: .1em solid #C38213; 
 	display: block;
 	max-width: 500px;
-	margin: 0 auto 1em auto;
+	margin: 0 auto 1.5em auto;
 }
 
 .venues__left {
@@ -52,7 +56,6 @@
 
 .venue__image {
 	width: 100%;
-	padding: 1em;
 }
 
 .venue__address {}
