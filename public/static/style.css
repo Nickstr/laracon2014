@@ -60,6 +60,27 @@ table {
   box-sizing: border-box;
 }
 
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
 html,
 body {
   height: 100%;
@@ -279,4 +300,59 @@ body {
   .introduction {
     padding: 0 1em 0 1em;
   }
+}
+.venues {
+  background: #e6e6eb;
+  height: 800px;
+  font-family: apercuregular;
+  border-top: 8px solid #c8c8c8;
+  margin: 0 auto;
+}
+
+.venues__title {
+  text-align: center;
+  font-size: 2.8em;
+  font-weight: bold;
+  color: #191919;
+  padding: 1.75em 0 .75em 0;
+  border-bottom: .1em solid #C38213;
+  display: block;
+  max-width: 500px;
+  margin: 0 auto 1em auto;
+}
+
+.venues__left {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.venues__right {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.venue__title {
+  font-size: 1.5em;
+  color: #094BA0;
+  font-weight: bold;
+  margin: 0 0 .5em 0;
+}
+
+.venue__subtitle {
+  font-size: 1.5em;
+  margin: 0 0 .5em 0;
+}
+
+.venue__description {
+  line-height: 1.5em;
+  font-size: 16px;
+  margin: 0 0 1em 0;
+  padding: 0 3em;
+}
+
+.venue__image {
+  width: 100%;
+  padding: 1em;
 }
