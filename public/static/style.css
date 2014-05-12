@@ -93,6 +93,47 @@ body {
   position: relative;
 }
 
+a {
+  color: #C38213;
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.8em;
+  font-weight: bold;
+  color: #191919;
+  padding: 2em 0 .5em 0;
+  border-bottom: .1em solid #C38213;
+  display: block;
+  width: 500px;
+  max-width: 90%;
+  margin: 0 auto;
+  line-height: 1.2em;
+}
+
+.sub-title {
+  font-size: 1.5em;
+  color: #094BA0;
+  margin: 0 0 .5em 0;
+  line-height: 1.2em;
+  font-weight: normal;
+  font-family: "apercubold", "sans-serif";
+}
+
+.subsub-title {
+  font-size: 1.5em;
+  margin: 0 0 .5em 0;
+  line-height: 1.2em;
+}
+
+.description {
+  line-height: 1.5em;
+  font-size: 1.1em;
+  margin: 0 0 1em 0;
+  margin: 0 auto;
+}
+
 @font-face {
   font-family: 'apercuitalic';
   src: url("fonts/apercuitalic-webfont.eot");
@@ -205,16 +246,21 @@ body {
   background: #eee;
   border: .2em solid #eee;
   padding: .5em 1.25em;
-  margin: 1em;
+  margin: .5em;
   text-decoration: none;
   display: inline-block;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .button--style1 {
   color: #094BA0;
   border-color: #094BA0;
+}
+.button--style1:hover {
+  border-color: #e6e6eb;
+  background: #094BA0;
+  color: #e6e6eb;
 }
 
 .button--style2 {
@@ -229,10 +275,15 @@ body {
   border-color: #eee;
 }
 
-@media screen and (min-width: 500px) {
-  .button--style1 {
-    font-size: 24px;
-  }
+.footer .copyright {
+  text-align: center;
+  font-size: .9em;
+  color: #999;
+  font-family: 'apercuregular', 'sans-serif';
+  margin: 2em 0;
+}
+.footer .copyright a {
+  color: #999;
 }
 .footer img {
   width: 100%;
@@ -298,66 +349,132 @@ body {
 
 @media screen and (min-width: 1000px) {
   .introduction {
-    padding: 0 1em 0 1em;
+    padding: 0 1em 1em 1em;
   }
 }
 .venues {
   background: #e6e6eb;
-  height: 100%;
   font-family: apercuregular;
   border-top: 8px solid #c8c8c8;
+  border-bottom: 8px solid #c8c8c8;
   margin: 0 auto;
 }
 
 .venues__wrapper {
   max-width: 1160px;
   margin: 0 auto;
-}
-
-.venues__title {
-  text-align: center;
-  font-size: 2.8em;
-  font-weight: bold;
-  color: #191919;
-  padding: 2em 0 .75em 0;
-  border-bottom: .1em solid #C38213;
-  display: block;
-  max-width: 500px;
-  margin: 0 auto 1.5em auto;
+  padding: 4em 2em;
 }
 
 .venues__left {
-  float: left;
-  width: 50%;
   text-align: center;
 }
 
 .venues__right {
-  float: left;
-  width: 50%;
   text-align: center;
 }
 
-.venue__title {
-  font-size: 1.5em;
-  color: #094BA0;
-  font-weight: bold;
-  margin: 0 0 .5em 0;
-}
-
-.venue__subtitle {
-  font-size: 1.5em;
-  margin: 0 0 .5em 0;
-}
-
-.venue__description {
-  line-height: 1.5em;
-  font-size: 16px;
-  margin: 0 0 1em 0;
-  padding: 0 3em;
-}
-
 .venue__image {
+  text-align: center;
+  margin: 0 0 1em 0;
+}
+.venue__image img {
+  padding: 1em 0;
   width: 100%;
+}
+
+.venue__address {
+  line-height: 1.5em;
+  font-size: 1.1em;
   margin: 0 0 2em 0;
+}
+
+@media screen and (min-width: 768px) {
+  .venues__left {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding: 0 1em;
+  }
+
+  .venues__right {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding: 0 1em;
+  }
+
+  .venue__image img {
+    padding: 2em 0;
+  }
+}
+.call-for {
+  font-size: 1.2em;
+  margin: 0 0 4em 0;
+}
+.call-for a {
+  color: #C38213;
+  text-decoration: none;
+  margin: 0 .5em;
+  text-decoration: none;
+  font-family: 'apercuregular', 'sans-serif';
+}
+
+.sleep {
+  background: #e6e6eb;
+  font-family: apercuregular;
+  border-bottom: 8px solid #c8c8c8;
+  margin: 0 auto;
+}
+
+.sleep__wrapper {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 4em 2em;
+}
+
+.sleep__image {
+  margin: 0 0 1em 0;
+}
+.sleep__image img {
+  width: 100%;
+}
+
+.sleep__list {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin: 0 0 2em 0;
+}
+.sleep__list li a {
+  color: #C38213;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .sleep__wrapper {
+    padding: 4em 0;
+  }
+
+  .sleep__list__left {
+    float: left;
+    width: 50%;
+  }
+
+  .sleep__list__right {
+    float: left;
+    width: 50%;
+  }
+
+  .sleep__left {
+    text-align: center;
+    width: 25%;
+    float: left;
+  }
+
+  .sleep__right {
+    text-align: left;
+    width: 75%;
+    float: left;
+    padding: 0 10em 0 2em;
+  }
 }

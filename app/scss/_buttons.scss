@@ -9,18 +9,20 @@
 	background: #eee;
 	border: .2em solid #eee;
 	padding: .5em 1.25em;
-	margin: 1em;
+	margin: .5em;
 	text-decoration: none;
 	display: inline-block;
 	font-weight: normal;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .button--style1 {
 	color: #094BA0;
 	border-color: #094BA0;
 	&:hover {
-
+		border-color: #e6e6eb;
+		background: #094BA0;
+		color: #e6e6eb;
 	}
 }
 
@@ -39,12 +41,5 @@
 	border-color: #eee;
 	&:hover {
 
-	}
-}
-
-
-@media screen and (min-width: 500px) {
-	.button--style1 {
-		font-size: 24px;
 	}
 }

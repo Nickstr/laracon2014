@@ -1,4 +1,14 @@
 .footer {
+    .copyright {
+        text-align: center;
+        font-size: .9em;
+        color: #999;
+        font-family: 'apercuregular', 'sans-serif';
+        margin: 2em 0;
+        a {
+            color: #999;
+        }
+    }
     img {
         width: 100%;
         padding: 5% 10%;

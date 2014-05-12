@@ -16,15 +16,15 @@
     line-height: 0;
     height: 0;
 }
- 
+
 .clearfix {
     display: inline-block;
 }
- 
+
 html[xmlns] .clearfix {
     display: block;
 }
- 
+
 * html .clearfix {
     height: 1%;
 }
@@ -41,6 +41,48 @@ body {
 	position: relative;
 }
 
+a {
+    color: #C38213;
+    text-decoration: none;
+}
+
+.title {
+    text-align:center;
+    font-size: 2.8em;
+    font-weight:bold;
+    color: #191919;
+    padding: 2em 0 .5em 0;
+    border-bottom: .1em solid #C38213;
+    display: block;
+    width: 500px;
+    max-width: 90%;
+    margin: 0 auto;
+    line-height: 1.2em;
+}
+
+
+.sub-title {
+    font-size: 1.5em;
+    color: #094BA0;
+    margin: 0 0 .5em 0;
+    line-height: 1.2em;
+    font-weight: normal;
+    font-family: "apercubold", "sans-serif";
+}
+
+.subsub-title {
+    font-size: 1.5em;
+    margin: 0 0 .5em 0;
+    line-height: 1.2em;
+}
+
+.description {
+    line-height: 1.5em;
+    font-size: 1.1em;
+    margin: 0 0 1em 0;
+    margin: 0 auto;
+}
+
 @import 'fonts';
 @import 'details';
 @import 'logo';
@@ -51,3 +93,5 @@ body {
 @import 'dividers';
 @import 'introduction';
 @import 'venues';
+@import 'call-for';
+@import 'sleep';
