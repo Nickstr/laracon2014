@@ -12,11 +12,7 @@
 }
 
 .sleep__image {
-    margin: -14em 0 1em 0;
-    text-align: center;
-    img {
-        width: 80%;
-    }
+    display: none;
 }
 
 
@@ -40,6 +36,15 @@
         padding: 4em 0;
     }
 
+
+    .sleep__image {
+        display: block;
+        margin: -14em 0 1em 0;
+        text-align: center;
+        img {
+            width: 80%;
+        }
+    }
 
     .sleep__list__left {
         float: left;
