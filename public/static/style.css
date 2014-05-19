@@ -104,10 +104,7 @@ a {
   font-weight: bold;
   color: #191919;
   padding: 2em 0 .5em 0;
-  border-bottom: .1em solid #C38213;
   display: block;
-  width: 500px;
-  max-width: 90%;
   margin: 0 auto;
   line-height: 1.2em;
 }
@@ -434,10 +431,11 @@ a {
 }
 
 .sleep__image {
-  margin: 0 0 1em 0;
+  margin: -14em 0 1em 0;
+  text-align: center;
 }
 .sleep__image img {
-  width: 100%;
+  width: 80%;
 }
 
 .sleep__list {
@@ -475,6 +473,6 @@ a {
     text-align: left;
     width: 75%;
     float: left;
-    padding: 0 10em 0 2em;
+    padding: 0 2em 0 2em;
   }
 }
