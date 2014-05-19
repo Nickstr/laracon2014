@@ -431,11 +431,7 @@ a {
 }
 
 .sleep__image {
-  margin: -14em 0 1em 0;
-  text-align: center;
-}
-.sleep__image img {
-  width: 80%;
+  display: none;
 }
 
 .sleep__list {
@@ -451,6 +447,15 @@ a {
 @media screen and (min-width: 768px) {
   .sleep__wrapper {
     padding: 4em 0;
+  }
+
+  .sleep__image {
+    display: block;
+    margin: -14em 0 1em 0;
+    text-align: center;
+  }
+  .sleep__image img {
+    width: 80%;
   }
 
   .sleep__list__left {
