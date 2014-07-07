@@ -55,7 +55,6 @@ table {
 *,
 *:before,
 *:after {
-  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -353,7 +352,6 @@ a {
 .venues {
   background: #e6e6eb;
   font-family: apercuregular;
-  border-top: 8px solid #c8c8c8;
   border-bottom: 8px solid #c8c8c8;
   margin: 0 auto;
 }
@@ -480,5 +478,62 @@ a {
     width: 75%;
     float: left;
     padding: 0 2em 0 2em;
+  }
+}
+.speakers {
+  background: #e6e6eb;
+  font-family: apercuregular;
+  border-top: 8px solid #c8c8c8;
+  margin: 0 auto 0 auto;
+}
+
+.speakers__wrapper {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 4em 2em 0em 2em;
+}
+
+.speaker__image {
+  border-radius: 400px;
+  width: 200px;
+  float: left;
+  border: .2em solid #094BA0;
+  margin: 1em 2em 1em 1em;
+}
+
+.speaker {
+  clear: both;
+}
+
+.speaker h2 {
+  font-size: 1.7em;
+  color: #094BA0;
+  line-height: 1.2em;
+  font-weight: bold;
+  padding: 1em 0 .5em 0;
+}
+
+.speaker p {
+  font-size: 1.2em;
+  line-height: 1.3em;
+}
+
+@media screen and (min-width: 768px) {
+  .speakers__left {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding: 0 1em;
+  }
+
+  .speakers__right {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding: 0 1em;
+  }
+
+  .speakers__image img {
+    padding: 2em 0;
   }
 }
