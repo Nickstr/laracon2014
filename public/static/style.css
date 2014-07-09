@@ -131,6 +131,28 @@ a {
   margin: 0 auto;
 }
 
+.coc {
+  background: #eee;
+  margin: 4em auto;
+  width: 1024px;
+  padding: 2em;
+  font-family: "apercubold", "sans-serif";
+  color: #191919;
+  border-radius: 1em;
+}
+.coc h1 {
+  font-size: 3em;
+  margin: .5em 0 1em 0;
+  padding: 0;
+}
+.coc p {
+  font-family: arial;
+  font-size: 1.4em;
+  line-height: 1.5em;
+  margin: 0 0 1.5em 0;
+  font-weight: normal;
+}
+
 @font-face {
   font-family: 'apercuitalic';
   src: url("fonts/apercuitalic-webfont.eot");
