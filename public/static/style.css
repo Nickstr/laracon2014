@@ -294,6 +294,12 @@ a {
   border-color: #eee;
 }
 
+.button--style4 {
+  color: #eee;
+  background: none;
+  border: none;
+}
+
 .footer .copyright {
   text-align: center;
   font-size: .9em;

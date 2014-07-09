@@ -36,10 +36,19 @@
 }
 
 .button--style3 {
-	color: #eee;
-	background: #094BA0;
-	border-color: #eee;
-	&:hover {
+  color: #eee;
+  background: #094BA0;
+  border-color: #eee;
+  &:hover {
 
-	}
+  }
+}
+
+.button--style4 {
+  color: #eee;
+  background: none;
+  border:none;
+  &:hover {
+
+  }
 }
