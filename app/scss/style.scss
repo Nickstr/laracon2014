@@ -1,5 +1,6 @@
 @import '../vendor/reset-scss/reset';
 
+
 *,
 *:before,
 *:after {
@@ -116,3 +117,4 @@ a {
 @import 'sleep';
 @import 'speakers';
 @import 'sponsors';
+@import "video";
