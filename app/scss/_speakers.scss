@@ -13,7 +13,7 @@
 
 .speaker__image {
   border-radius: 400px;
-  width: 200px;
+  width: 150px;
   float:left;
   border: .2em solid #094BA0;
   margin: 1em 2em 3em 1em;
@@ -29,15 +29,16 @@
 }
 
 .speaker h2 {
-  font-size: 1.7em;
-  color: #094BA0;
+  font-size: 24px;
+  color: #0A4BA0;
   line-height: 1.2em;
   font-weight: bold;
   padding: 1em 0 0 0;
 }
 
 .speaker p {
-  font-size: 1.2em;
+  font-size: 16px;
+  color: #2D2D2D;
   line-height: 1.3em;
   margin: .5em 0 0 0;
 }
